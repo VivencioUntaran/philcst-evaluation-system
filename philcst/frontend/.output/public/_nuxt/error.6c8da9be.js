@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as s,a as r}from"./entry.b4168997.js";const t={},a=r("h1",null,"This is an error page",-1),c=[a];function n(_,i,p,d,l,f){return s(),o("div",null,c)}const h=e(t,[["render",n]]);export{h as default};

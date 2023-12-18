@@ -1,0 +1,1 @@
+import{_ as o}from"./AcademicYearForm.e5a336a8.js";import{_ as c,c as t,b as r,o as a}from"./entry.b4168997.js";import"./useAPI.05844c13.js";const _={},n={class:"academic-year"};function s(m,d){const e=o;return a(),t("div",n,[r(e,{formType:"update"})])}const l=c(_,[["render",s]]);export{l as default};

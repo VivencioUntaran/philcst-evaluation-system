@@ -1,0 +1,1 @@
+import{_ as n,c as o,a as e,t as s,P as t,o as _}from"./entry.b4168997.js";const r={};function l(a,c){return _(),o("div",null,[e("div",null,[e("nav",null,[e("h2",null,s((a._.provides[t]||a.$route).params.reportSlug),1)])])])}const u=n(r,[["render",l],["__scopeId","data-v-92f05397"]]);export{u as default};

@@ -1,0 +1,1 @@
+import{_,o as s,c,a as o,O as t}from"./entry.b4168997.js";const a={},n={class:"flow"},d={class:"mycard"};function r(e,l){return s(),c("div",n,[o("div",d,[t(e.$slots,"default",{},void 0,!0)])])}const f=_(a,[["render",r],["__scopeId","data-v-864a351c"]]);export{f as _};

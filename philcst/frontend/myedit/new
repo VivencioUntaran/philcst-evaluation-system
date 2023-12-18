@@ -1,0 +1,145 @@
+<!-- <template>
+    <div>
+        <nav></nav>
+        <aside class="mysidebar">
+            <div class="mysidebar__items">
+                <ul class="mysidebar__list">
+                    <li class="mysidebar__list--item">
+
+                        <span>
+                            <Icon name="flat-color-icons:businessman" width="30" height="40" />
+                            Dashboard
+                        </span>
+                    </li>
+
+                    <li class="mysidebar__list--item">
+                        <span>
+                            <Icon name="flat-color-icons:calendar" width="30" height="40" />
+                            Academic Year
+                        </span>
+                    </li>
+
+                    <li class="mysidebar__list--item">
+                        <span>
+                            <Icon name="flat-color-icons:document" width="30" height="40" />
+                            Questionnaires
+                        </span>
+                    </li>
+
+                    <li class="mysidebar__list--item">
+                        <span>
+                            <Icon name="flat-color-icons:todo-list" width="30" height="40" />
+                            Evaluation Criteria
+                        </span>
+                    </li>
+
+                    <li class="mysidebar__list--item">
+                        <span>
+                            <Icon name="flat-color-icons:reading-ebook" width="30" height="40" />
+                            Faculty
+                        </span>
+                    </li>
+
+                    <li class="mysidebar__list--item">
+                        <span>
+                            <Icon name="flat-color-icons:manager" width="30" height="40" />
+                            Dean
+                        </span>
+                    </li>
+
+                    <li class="mysidebar__list--item">
+                        <span>
+                            <Icon name="flat-color-icons:fine-print" width="30" height="40" />
+                            Evavluation Report
+                        </span>
+                    </li>
+
+                </ul>
+            </div>
+        </aside>
+
+    </div>
+</template>
+
+<script setup>
+
+</script>
+
+<style lang="scss" scoped>
+    @font-face {
+        font-family: myfont;
+        src: url(~/assets/inter.ttf);
+    }
+
+    $bg-accent: #964FA8;
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-sizing: border-box;
+        color: white;
+        font-family: 'myfont';
+        font-weight: bold;
+        text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .mysidebar {
+        background-color: $bg-accent;
+        min-height: 100vh;
+        max-width: 12.5rem;
+
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+        }
+
+        &__list--item {
+            // border: 1px solid red;
+            margin-bottom: 2rem;
+            padding-left: 1.5rem;
+        }
+
+        li:nth-child(1) {
+            margin-top: 2.5rem;
+        }
+
+    }
+</style> -->
+
+
+
+
+<!-- <template>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Administrator</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+        </div>
+
+    </div>
+</template>
+
+<script setup>
+
+</script>
+
+<style lang="scss" scoped></style> -->

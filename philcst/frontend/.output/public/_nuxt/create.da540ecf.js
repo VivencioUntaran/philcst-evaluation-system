@@ -1,0 +1,1 @@
+import{_ as c}from"./AcademicYearForm.e5a336a8.js";import{_ as o,c as t,b as r,o as a}from"./entry.b4168997.js";import"./useAPI.05844c13.js";const _={},n={class:"academic-year"};function s(m,i){const e=c;return a(),t("div",n,[r(e)])}const l=o(_,[["render",s]]);export{l as default};

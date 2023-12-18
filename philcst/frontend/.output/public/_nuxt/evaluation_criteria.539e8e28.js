@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as n,a as e}from"./entry.b4168997.js";const o={},c=e("div",{class:"transition"},[e("nav",null,[e("h2",null," Evaluation Criteria ")])],-1),s=[c];function r(i,_){return n(),a("div",null,s)}const d=t(o,[["render",r]]);export{d as default};

@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@iconify/vue": "^4.1.1",
+    "@nuxt/devtools": "latest",
+    "@types/bootstrap": "^5.2.6",
+    "@types/node": "^18.17.3",
+    "nuxt": "^3.6.5",
+    "nuxt-icon": "^0.5.0",
+    "sass": "^1.68.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.6.0",
+    "bootstrap": "^5.3.1",
+    "vue-multiselect": "^2.1.8",
+    "vue3-simple-html2pdf": "0.0.7"
+  }
+}

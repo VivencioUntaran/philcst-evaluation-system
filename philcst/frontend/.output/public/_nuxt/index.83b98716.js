@@ -1,0 +1,1 @@
+import{q as r,u as t,s}from"./entry.b4168997.js";const n={__name:"index",setup(u){return r(()=>{const e=t();s().push(`/admin/academic-year/${e.params.academicYearId}`)}),(e,a)=>null}};export{n as default};

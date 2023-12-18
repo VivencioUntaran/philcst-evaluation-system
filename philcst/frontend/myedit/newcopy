@@ -1,0 +1,49 @@
+// <template>
+//     <div class="sidebar" :class="`${is_expanded && 'is-expanded'}`">
+//         <div class="content">
+//             <ul>
+//                 <li>link</li>
+//                 <li>link</li>
+//                 <li>link</li>
+//                 <li>link</li>
+//             </ul>
+//         </div>
+
+//         <div class="menu-toggle">
+//             <button @click="toggleMenu">Click me</button>
+//         </div>
+//     </div>
+// </template>
+
+// <script setup>
+// import { ref } from 'vue'
+
+// const is_expanded = ref(false)
+
+// const toggleMenu = () => {
+//     is_expanded.value = !is_expanded.value
+// }
+// </script>
+
+// <style lang="scss" scoped>
+// .sidebar {
+//     min-height: 100vh;
+//     background-color: violet;
+//     width: 100px;
+//     transition: .4s ease-out;
+//     overflow-x: none;
+// }
+
+// .is-expanded {
+//     width: 300px;
+//     // display: none;
+//     // background-color: aqua;
+// }
+
+// .menu-toggle {
+//     display: flex;
+//     justify-content: flex-end;
+//     position: relative;
+//     top: 0;
+// }
+// </style>

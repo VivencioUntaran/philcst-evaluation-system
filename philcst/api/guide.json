@@ -1,0 +1,59 @@
+[
+  {
+    "questionnaire": {
+      "id": 1,
+      "name": "Peer to peer",
+      "slug": "peer-to-peer",
+      "criterias": [
+        {
+          "id": 1,
+          "name": "Criteria 1",
+          "criteriaPoints": [
+            {
+              "id": 1,
+              "label": "A",
+              "point": 0.5,
+              "criteriaId": 1
+            },
+            {
+              "id": 1,
+              "label": "B",
+              "point": 10,
+              "criteriaId": 1
+            }
+          ],
+          "questions": [
+            {
+              "id": 1,
+              "name": "question 1",
+              "choices": [
+                {
+                  "id": 1,
+                  "questionId": 1,
+                  "criteriaPointId": 1,
+                  "criteriaPoints": {
+                    "id": 1,
+                    "label": "A",
+                    "point": 0.5,
+                    "criteriaId": 1
+                  }
+                },
+                {
+                  "id": 1,
+                  "questionId": 1,
+                  "criteriaPointId": 2,
+                  "criteriaPoints": {
+                    "id": 1,
+                    "label": "B",
+                    "point": 10,
+                    "criteriaId": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

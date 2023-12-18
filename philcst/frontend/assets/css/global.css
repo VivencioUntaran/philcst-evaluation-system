@@ -1,0 +1,58 @@
+/* BASE PAGE CSS TEMPLATE */
+.transition {
+    transition: .2s ease-in-out;
+}
+.pageContent {
+    /* padding-left: 230px; */
+    padding-left: 70px;
+    padding-top: 15px;
+    position: relative;
+}
+.pageContentCollapsed {
+    /* padding-left: 70px; */
+    padding-left: 230px;
+}
+/* BASE PAGE CSS TEMPLATE END */
+
+
+.btn-yellow {
+    border: none;
+    padding: 8px;
+    background-color: #FFCE82;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.cstm-input {
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 0.15rem;
+    padding: 0.25rem 0;
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    outline-color: rgb(43, 71, 230);
+}
+
+.bgCard {
+    background-color: #CAA7D3;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    max-width: 98%;
+
+    &:hover {
+        background-color: #ba93c4; 
+    }
+
+    
+}
+
+.no-click {
+    pointer-events: none;
+    user-select: none;
+}
+.disabled {
+    opacity: 0.8;
+}
+
